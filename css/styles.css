@@ -1,0 +1,172 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.25rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 10% 11%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  line-height: 1.5;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 6rem;
+  border-radius: 100%;
+  margin: 5% 3%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 0 3% 6%;
+}
+
+.press-images {
+  margin: 0 1.5%;
+  width: 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 7% 10%;
+}
+
+.pricing-col {
+  padding: 5% 2% 3%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call To Action */
+
+#cta {
+  padding: 15% 20% 3%;
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.end-download-btn {
+  margin: 8% 1.5%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 4% 0 2%;
+}
+
+.footer-icons {
+  padding: 0 0.75% 1.5% 0.75%;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
